@@ -1,6 +1,18 @@
 // Your variable overrides
-$body-bg: #000;
-$body-color: #111;
+
+$theme-colors: (
+  "primary": #5834FF,
+  "secondary": #006658,
+  "success": #00ff00,
+  "danger": #ff4136,
+  "warning": #ecdd0a,
+  "info": #0fe0e0,
+  "light": #b9b9b9,
+  "dark": #123456
+);
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+$font-family-base: 'MuseoModerno', cursive;
 
 // Bootstrap and its default variables
 @import "../../node_modules/bootstrap/scss/bootstrap";
